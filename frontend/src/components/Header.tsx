@@ -16,7 +16,7 @@ export default function Header() {
 
   return (
     <header className="relative bg-transparent">
-      <nav className="flex items-center justify-between px-6 py-4 md:px-8">
+      <nav className="flex items-center justify-between px-6 py-4 md:px-8 xl:justify-around">
         <span className="text-2xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 inline-block text-transparent bg-clip-text">Dev Jam</span>
 
         {/* Desktop Menu */}
